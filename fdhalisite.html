@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Welcome Page</title>
+<style type="text/css">
+        p {
+            text-indent: 30pt;
+
+        }
+
+        p.indented {
+            padding-top: 10pt;
+            padding-bottom: 50pt;
+            padding-left: 50pt;
+            padding-right: 50pt;
+        }
+
+        body,
+        td,
+        th {
+	font-family: 'Segoe', 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', 'Verdana', 'sans-serif';
+	font-style: normal;
+	font-weight: normal;
+	background-color: #FFFFFF;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #66BCE4;
+            color: white;
+        }
+		
+		tr:hover {background-color: #f5f5f5;} 
+		
+    </style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+</head>
+
+<body onLoad="MM_preloadImages('Buttons/Button-Off-About-Me.png','Buttons/Button-Off-Contact-Me.png','Buttons/Button-Off-Portfolio.png','Buttons/Button-Off-Resume.png')">
+<img src="Fahim Dhali - Logo.png" alt="" width="130" align="left" />
+<h1 style="text-align: center; font-weight: bold;">Fahim Dhali's Website</h1>
+<h2 style="font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: 18px; text-align: center; font-style: normal; font-weight: lighter;"><a href="fdhalisite.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('About Me','','Buttons/Button-Off-About-Me.png',1)"><img src="Buttons/Button-On-About-Me.png" alt="About Me" width="150" height="75" id="About Me"></a> <a href="contact me.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Contact Me','','Buttons/Button-Off-Contact-Me.png',1)"><img src="Buttons/Button-On-Contact-Me.png" alt="Contact Me" width="150" height="75" id="Contact Me"></a> <a href="portfolio.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Portfolio','','Buttons/Button-Off-Portfolio.png',1)"><img src="Buttons/Button-On-Portfolio.png" alt="Portfolio" width="150" height="75" id="Portfolio"></a> <a href="resume.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Resume','','Buttons/Button-Off-Resume.png',1)"><img src="Buttons/Button-On-Resume.png" alt="Resume" width="150" height="75" id="Resume"></a></h2>
+<h2 style="font-size: 18px; text-align: center; font-style: normal; font-weight: bold;">About Me:</h2>
+<p class="indented">Hello, my name is Fahim Dhali. And, this is my first website started from scratch and not made off a template. I am currently writing this using Adobe Dreamweaver CC 2018 for my Digital Multimedia Class, and I am attending Miami Beach Senior High school in the 9th Grade at the time of writing this. I don’t really enjoy sports that much, but I do enjoy eSports such as Counter-Strike: Global Offensive, Team Fortress 2, and Overwatch. My hobbies include playing video games such as Overwatch, Counter-Strike: Global Offensive, and some of that high-quality Minecraft. I also enjoy coding my Discord bot on Discord.js which is currently serving 40.7k users at the current time of me writing this and 60 guilds. And, I am working on making my own social networking site with my friends. I used to do some light video editing for my friends using Vegas Pro 14, and graphics design using After Affects CC 2018, Photoshop CC 2018, Blender, and Cinema 4D.</p>
+</body>
+
+<div style="overflow-x:auto;">
+
+    <table width="500" border="1" align="center" cellpadding="3" cellspacing="3">
+        <tbody>
+            <tr>
+                <th scope="col">Period</th>
+                <th scope="col">Subject</th>
+                <th scope="col">Room Number</th>
+            </tr>
+            <tr>
+                <td>Period 1</td>
+                <td>Biology 1 Honors</td>
+                <td>375</td>
+            </tr>
+            <tr>
+                <td>Period 2</td>
+                <td>Geometry Honors</td>
+                <td>277</td>
+            </tr>
+            <tr>
+                <td>Period 3</td>
+                <td>World History Honors</td>
+                <td>353</td>
+            </tr>
+            <tr>
+                <td>Period 4</td>
+                <td>Team Sports 1</td>
+                <td>631</td>
+            </tr>
+            <tr>
+                <td>Period 5</td>
+                <td>English 1 Honors</td>
+                <td>244</td>
+            </tr>
+            <tr>
+                <td>Period 6</td>
+                <td>Spanish 1</td>
+                <td>234</td>
+            </tr>
+            <tr>
+                <td>Period 7</td>
+                <td>Digital Media/Multimedia Foundation</td>
+                <td>507</td>
+            </tr>
+            <tr>
+                <td>Period 8</td>
+                <td>Digital Information Technology/Leve</td>
+                <td>504</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+</html>
